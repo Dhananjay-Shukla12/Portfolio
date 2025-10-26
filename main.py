@@ -89,9 +89,10 @@ with tab2:
 with tab3:
     st.header("My Projects")
     
-    st.subheader("ABC")
-    st.write("""
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec augue ac erat egestas porta. Sed ac metus quis mauris vehicula elementum at in est. Suspendisse quis orci vitae enim consequat consectetur. Curabitur elit nulla, iaculis gravida purus ut, euismod tristique ligula. Integer at orci non felis elementum malesuada sed vel urna. Duis pulvinar turpis a magna molestie luctus. Proin in orci diam. Quisque cursus condimentum leo ac facilisis. Proin sodales, neque at ultricies tincidunt, quam dolor consectetur nulla, a dapibus tortor lacus eget mauris. Sed tincidunt felis felis, ac lobortis metus sagittis vel.
+    st.subheader("1. PDF to Word Document Convertor")
+    st.markdown("[Link - PDF to Word Document Convertor](https://pdf-to-word-document-convertor-3yvjnranbqphwybebooaml.streamlit.app/)")
+    st.image("assets/PDFtoWordDocumentConvertor.png",use_container_width=False, width = 400)
+    st.write("""This PDF to Word Converter is a Streamlit web app that lets users upload a PDF and converts it into a Word document by extracting text from each PDF page using pypdf and saving it with python-docx. After conversion, it provides a download button to get the Word file directly in the browser.
     """)
 
     st.subheader("DEF")
